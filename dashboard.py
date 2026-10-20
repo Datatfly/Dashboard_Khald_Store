@@ -32,7 +32,7 @@ HEADERS = {
 
 
 # =========================================================
-# LOAD FIRST 100 ORDERS ONLY
+
 # =========================================================
 
 @st.cache_data(ttl=300)
@@ -65,7 +65,7 @@ def load_data():
 st.title("📊 WeSell Live Dashboard")
 
 st.caption(
-    "Khaled Store | First 100 Orders | Daily Analysis"
+    "Khaled Store | First 1000 Orders | Daily Analysis"
 )
 
 
@@ -113,7 +113,7 @@ with col_info:
 
 try:
 
-    with st.spinner("Loading first 100 orders..."):
+    with st.spinner("Loading first 1000 orders..."):
 
         orders, meta = load_data()
 
