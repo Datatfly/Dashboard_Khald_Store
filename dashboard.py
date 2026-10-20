@@ -43,7 +43,7 @@ def load_data():
         headers=HEADERS,
         params={
             "page": 1,
-            "per_page": 100
+            "per_page": 1000
         },
         timeout=60
     )
