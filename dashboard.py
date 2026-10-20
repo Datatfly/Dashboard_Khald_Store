@@ -56,7 +56,7 @@ SUBDOMAIN = "khaled22"
 BASE_URL = f"https://{SUBDOMAIN}.wesell.world/api/v1/orders"
 
 # Paste your API key here. Do not publish it.
-API_KEY = "PASTE_YOUR_API_KEY_HERE"
+API_KEY = "422|8T2SKD6Xpb8w4WfXPtLHZEVSKeB4RwLXB2JnYkA37a5bb893"
 
 HEADERS = {
     "Authorization": f"Bearer {API_KEY}",
