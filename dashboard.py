@@ -23,7 +23,7 @@ SUBDOMAIN = "khaled22"
 
 BASE_URL = f"https://{SUBDOMAIN}.wesell.world/api/v1/orders"
 
-API_KEY = st.secrets.get("API_KEY", "")
+API_KEY = "422|8T2SKD6Xpb8w4WfXPtLHZEVSKeB4RwLXB2JnYkA37a5bb893"
 
 HEADERS = {
     "Authorization": f"Bearer {API_KEY}",
